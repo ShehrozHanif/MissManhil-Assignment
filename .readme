@@ -1,0 +1,29 @@
+/*Conclusion of Question No 1:
+
+ What we did first make a function with the name of vovel2 Passing an Argument with the name of str and give the type string, than make a 
+variable with the name of vovel2 in which passing the value of vovels in an Array. Then make another variable with the name of count and it assign 0.
+Than use for loop to iterate if vovel2 include so increament in count++ othervise return count.
+
+
+Conclusion of Question No 2:
+
+We all know that Prime number is divisible by itSelf or 1, So we Apply the condition according them, like the first condition,
+if(num<=1) it means if number is less than 1 or equal to 1 return false because every number is divisible by 1 and every number is not prime number.
+Then, if(divisor === number) return true , its obvious we tell you prime number are those which is divide by itself so if both are same it means
+true. Then we use recursive if(num % divisor === 0) return false, it means if number is divide with divisor and quiotient === 0 it means it's not
+a prime number. In the end we return function by increament in the divisor because to meet the conditions.
+
+
+Conclusion of Question No 3:
+First create a function called firstNonRepeatedCharater passing an argument str type string return string or null, then
+create a new Map in charCount variable . The work of new Map is to store the count of each character in the input string,representing the
+charaters and the value type is number, representing the count occurence of each word, then
+use of loop for str to check with the help of charCount.set to how many times this str appear if not appear then retur than count 0 otherwise 
+increament by 1 than, again loop to check if  char of str === 1 through cahrCount.get then return char it means the first one who is not repeated
+anymore retun it. else not exist any character then return null 
+
+
+
+Conclusion of Question No 4 & 5:
+we just use basic function method nothing more than that.
+*/
